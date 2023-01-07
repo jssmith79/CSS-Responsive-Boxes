@@ -5,12 +5,13 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  border: 2px solid magenta;
+  border: 5px solid magenta;
+  flex-wrap: wrap;
 }
 
 .a {
   display: flex ;
-  border: 1px solid gold;
+  border: 3px solid gold;
   height: 100px;
   margin: 1em;
   align-items: center;
@@ -19,18 +20,25 @@ body {
 
 .b {
   display: flex ;
-  border: 1px solid gold;
+  align-self: baseline;
+  flex-direction: column;
+  border: 3px solid gold;
   height: 100px;
   margin: 1em;
   align-items: center;
+  width: 60%;
   justify-content: center;
+
 }
 
 .c {
-  display: flex ;
-  border: 1px solid gold;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  border: 3px solid gold;
   height: 100px;
   margin: 1em;
-  align-items: center;
+  width: 25%;
   justify-content: center;
+  align-items: center;
 }
