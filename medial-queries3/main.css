@@ -1,3 +1,35 @@
 body {
   background: peachpuff;
 }
+
+.container {
+  border: 2px solid maroon;
+  margin: 2em;
+  flex-wrap: wrap;
+}
+.a, .b, .c, .d, .e, .f, .g, .h {
+   border: 2px solid cyan;
+   margin: 1em;
+   text-align: center;
+}
+
+.b, .c, .d, .e, .f, .g {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  
+}
+
+.a {
+  width: 25000px;
+  height: 100px;
+}
+
+.h {
+  height: 350px;
+  width: 150px;
+}
