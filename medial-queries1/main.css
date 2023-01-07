@@ -1,3 +1,36 @@
 body {
-  background: blanchedalmond;
+  background: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid magenta;
+}
+
+.a {
+  display: flex ;
+  border: 1px solid gold;
+  height: 100px;
+  margin: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.b {
+  display: flex ;
+  border: 1px solid gold;
+  height: 100px;
+  margin: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.c {
+  display: flex ;
+  border: 1px solid gold;
+  height: 100px;
+  margin: 1em;
+  align-items: center;
+  justify-content: center;
 }
