@@ -1,3 +1,48 @@
+.container {
+  border: 2px solid magenta;
+  display: flex;
+  flex-direction: row;
+
+  
+}
 body {
-  background: papayawhip;
+  background: lightgray;
+  padding: 1em;
+  margin: 1em;
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid mediumaquamarine;
+  margin: 1em;
+  width: auto;
+}
+
+.b {
+  display: flex;
+  border: 2px solid mediumaquamarine;
+  margin: 1em;
+  align-content: center;
+  width: 50%;
+}
+
+.c, .d, .e {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid mediumorchid;
+  justify-content: space-around;
+  order: 0 1 2;
+  margin: 1em;
+
+}
+
+
+.f {
+  display: flex;
+  border: 4px solid mediumaquamarine;
+  margin: 1em;
+  align-content:flex-end;
+  width: 40%;
+  height: 300px;
 }
